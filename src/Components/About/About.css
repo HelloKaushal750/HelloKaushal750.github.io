@@ -1,0 +1,27 @@
+#about {
+    background-color: #0f1624;
+    padding-top: 50px;
+}
+.about_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* height: 200px; */
+    padding: 50px 120px;
+    margin-bottom: -80px;
+}
+.left_about{
+    height: 450px;
+    margin-top: -30px;
+    padding: 0 0 60px 100px;
+}
+.left_about>img{
+    width: 100%;
+}
+.right_about{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 20px;
+    padding: 0 20px 20px 20px;
+}

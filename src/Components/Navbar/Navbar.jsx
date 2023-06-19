@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div id="nav-menu" style={{ backgroundColor: "black", color: "white" }}>
+    <div id="nav-menu" style={{ backgroundColor: "black", color: "white", opacity:"1", position:"fixed", width:"94.8%"}}>
       <div style={{ marginBottom: "-20px", marginTop: "-15px" }}>
         <Link style={{ fontSize: "20px", color:"white",textDecoration:"none" }}>
           <h1>
@@ -13,13 +13,13 @@ function Navbar() {
       </div>
 
       <div className="navlink">
-        <Link className="nav-link home">HOME</Link>
-        <Link className="nav-link about">ABOUT</Link>
-        <Link className="nav-link projects">PROJECT</Link>
-        <Link className="nav-link github">GITHUB</Link>
-        <Link className="nav-link skills">SKILLS</Link>
-        <Link className="nav-link contact">CONTACT</Link>
-        <Link className="nav-link resume">RESUME</Link>
+        <a className="nav-link home" href="#home">HOME</a>
+        <a className="nav-link about" href='#about'>ABOUT</a>
+        <a className="nav-link projects" href="#projects">PROJECT</a>
+        <a className="nav-link github" href="#github">GITHUB</a>
+        <a className="nav-link skills" href="#skills">SKILLS</a>
+        <a className="nav-link contact" href="#contact">CONTACT</a>
+        <a className="nav-link resume" href="resume_view">RESUME</a>
       </div>
     </div>
   );

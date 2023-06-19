@@ -11,17 +11,25 @@ function Home() {
           </h1>
         </div>
         <div
-          id="user-detail-name"
           style={{ fontSize: "22px", fontWeight: "900", marginBottom: "-10px" }}
         >
-          <h1 style={{ marginBottom: "-23px" }}>Kaushal Ramesh</h1>
+          <h1 id="user-detail-name" style={{ marginBottom: "-23px" }}>
+            Kaushal Ramesh
+          </h1>
           <h1>Vishwakarma</h1>
         </div>
-        <div>
-          <h1>
-            I am a{" "}
-            <span style={{ color: "#4000ff" }}>Full Stack Developer</span>
-          </h1>
+        <div
+          style={{
+            marginTop: "-30px",
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+          }}
+        >
+          <h1>I am a</h1>
+          <span className="profession">
+            &nbsp;Full Stack Developer.
+          </span>
         </div>
         <div
           style={{ display: "flex", gap: "10px" }}
