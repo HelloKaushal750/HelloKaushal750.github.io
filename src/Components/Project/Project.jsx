@@ -1,6 +1,6 @@
 import data from "./projectData.json";
 import "./Project.css";
-import SimpleImageSlider from "react-simple-image-slider";
+
 
 function Project() {
   return (
@@ -39,7 +39,7 @@ function Project() {
               >
                 <h1 className="project-title">{project.title}</h1>
               </div>
-              <div style={{height:"200px"}}>
+              <div style={{ height: "200px" }}>
                 <p className="project-description">{project.description}</p>
                 {project.type !== "Individual" ? (
                   <p>

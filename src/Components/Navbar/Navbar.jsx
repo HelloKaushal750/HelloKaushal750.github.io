@@ -16,7 +16,7 @@ function Navbar() {
         <a className="nav-link home" href="#home">HOME</a>
         <a className="nav-link about" href='#about'>ABOUT</a>
         <a className="nav-link projects" href="#projects">PROJECT</a>
-        <a className="nav-link github" href="#github">GITHUB</a>
+        <a className="nav-link github" href="#githuboverview">GITHUB</a>
         <a className="nav-link skills" href="#skills">SKILLS</a>
         <a className="nav-link contact" href="#contact">CONTACT</a>
         <a className="nav-link resume" href="resume_view">RESUME</a>

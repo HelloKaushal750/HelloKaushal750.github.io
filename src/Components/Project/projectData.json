@@ -1,6 +1,12 @@
 [
   {
-    "images": ["/Images/Alcazar/home.png"],
+    "images": [
+      "/Images/Alcazar/home.png",
+      "/Images/Alcazar/product.png",
+      "/Images/Alcazar/description.png",
+      "/Images/Alcazar/payment.png",
+      "/Images/Alcazar/booking.png"
+    ],
     "title": "Alcazar - Travel Agency",
     "description": "Alcazar is one of the most used travel agency wbsite for booking or planning any vacation across the world. From Homepage, Login & SignUp, Product to Payment, MyBooking page. We have added every functionalities. In this team project, I have created 'Payment', 'MyBooking' page and linked all the pages.",
     "type": "Group",
@@ -24,7 +30,13 @@
     "video_link": ""
   },
   {
-    "images": ["/Images/Sephora/home.png"],
+    "images": [
+      "/Images/Sephora/home.png",
+      "/Images/Sephora/product.png",
+      "/Images/Sephora/description.png",
+      "/Images/Sephora/cart.png",
+      "/Images/Sephora/payment.png"
+    ],
     "title": "Sephora - Clone",
     "description": "Sephora is a French multinational retailer of personal care and beauty products with nearly 340 brands which includes beauty products such as cosmetics, skincare, body, fragrance, etc. In this project my part was 'Cart' and 'Checkout' page.",
     "type": "Group",
@@ -36,7 +48,13 @@
     "video_link": "https://www.linkedin.com/posts/kaushalvish_masaischool-team-javascript-activity-7044556903024078848-P8RI?utm_source=share&utm_medium=member_desktop"
   },
   {
-    "images": ["/Images/Netmeds/home.png"],
+    "images": [
+      "/Images/Netmeds/home.png",
+      "/Images/Netmeds/product.png",
+      "/Images/Netmeds/description.png",
+      "/Images/Netmeds/cart.png",
+      "/Images/Netmeds/payment.png"
+    ],
     "title": "Netmeds - Clone",
     "description": "Netmeds.com is one of India's most trusted pharmacies, dispensing quality medicines at reasonable prices to over 7 million happy customers – PAN India. On this website, I have built 'Product Description' page, 'Cart' and 'Payment' page.",
     "type": "Group",

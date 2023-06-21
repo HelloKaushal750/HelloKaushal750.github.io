@@ -1,0 +1,26 @@
+#githuboverview{
+    background-color: #0f1624;
+    height: 100vh;
+}
+.github_data{
+    width: 70%;
+    margin: auto;
+    margin-top: 60px
+}
+.github_data>div{
+    border: 1px solid #4000ff;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.github_data>div>img{
+    height: 100%;
+}
+.github_data>div{
+    transition: all 0.5s ease-in-out;
+}
+.github_data>div:hover{
+    transform: scale(1.1);
+}
