@@ -24,13 +24,13 @@ function Github() {
         }}
         className="github_data"
       >
-        <div style={{ height: "200px" }} id="github-stats-card">
+        <div style={{ height: "200px" }} id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=HelloKaushal750&show_icons=true&theme=tokyonight">
           <img
             src="https://github-readme-stats.vercel.app/api?username=HelloKaushal750&show_icons=true&theme=tokyonight"
             alt=""
           />
         </div>
-        <div id="github-streak-stats" style={{ height: "180px" }}>
+        <div id="github-streak-stats" style={{ height: "180px" }} src="https://github-readme-streak-stats.herokuapp.com/?user=HelloKaushal750&show_icons=true&theme=tokyonight">
           <img
             src="https://github-readme-streak-stats.herokuapp.com/?user=HelloKaushal750&show_icons=true&theme=tokyonight"
             alt=""
@@ -75,8 +75,8 @@ function Github() {
             />
           </div>
         </div>
-        <div id="github-top-langs" style={{ height: "200px",width:"47%" }}>
-            <img style={{backgroundColor:"#1a1b27",border:"1px solid white",borderRadius:"5px",width:"100%"}}  src="toplang.png" alt="" />
+        <div id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HelloKaushal750&layout=compact" style={{ height: "200px",width:"47%" }}>
+            <img style={{backgroundColor:"#1a1b27",border:"1px solid white",borderRadius:"5px"}}  src="toplang.png" alt="" />
         </div>
       </div>
       <div>
