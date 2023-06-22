@@ -1,0 +1,56 @@
+[
+    {
+        "image":"html.ico",
+        "name":"HTML"
+    },
+    {
+        "image":"CSS.png",
+        "name":"CSS"
+    },
+    {
+        "image":"JS.png",
+        "name":"JavaScript"
+    },
+    {
+        "image":"react.png",
+        "name":"React"
+    },
+    {
+        "image":"chakra_ui.png",
+        "name":"Chakra UI"
+    },
+    {
+        "image":"mongodb.webp",
+        "name":"Mongo DB"
+    },
+    {
+        "image":"mongoose.png",
+        "name":"Mongoose"
+    },
+    {
+        "image":"express.png",
+        "name":"Express"
+    },{
+        "image":"nodejs.webp",
+        "name":"Node JS"
+    },{
+        "image":"git.png",
+        "name":"Git"
+    },
+    {
+        "image":"npm.webp",
+        "name":"NPM"
+    },
+    {
+        "image":"postman.png",
+        "name":"Post Man"
+    },
+    {
+        "image":"redux.webp",
+        "name":"Redux"
+    },
+    {
+        "image":"bootstrap.png",
+        "name":"Bootstrap"
+    }
+]

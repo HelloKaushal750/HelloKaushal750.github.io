@@ -1,6 +1,6 @@
 #githuboverview{
     background-color: #0f1624;
-    height: 100vh;
+    padding-bottom: 100px;
 }
 .github_data{
     width: 70%;
@@ -22,5 +22,24 @@
     transition: all 0.5s ease-in-out;
 }
 .github_data>div:hover{
+    transform: scale(1.1);
+}
+.hours{
+    margin: auto;
+    margin-top: 100px;
+}
+.hours>div{
+    border: 1px solid #4000ff;
+    border-radius: 50px;
+    width: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0032;
+    transition: all 0.5s ease-in-out;
+}
+.hours>div:hover{
     transform: scale(1.1);
 }

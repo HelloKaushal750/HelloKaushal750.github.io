@@ -1,6 +1,7 @@
 #about {
     background-color: #0f1624;
     padding-top: 50px;
+    padding-bottom: 70px;
 }
 .about_container{
     display: grid;
