@@ -48,7 +48,6 @@ function Navbar() {
           href={myFile}
           download
           target="blank"
-          id="resume-link-1"
         >
           <button
             style={{
@@ -57,6 +56,7 @@ function Navbar() {
               border: "none",
               backgroundColor: "black",
             }}
+            onClick={()=>window.open(myFile,"_blank")}
             id="resume-button-1"
           >
             RESUME
