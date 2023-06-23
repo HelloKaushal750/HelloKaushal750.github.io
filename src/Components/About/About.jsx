@@ -46,8 +46,8 @@ function About() {
             </div>
             <div>
               <span style={{fontWeight:"600"}}>Full Stack Developer</span> with hands on experience in
-              building React Apps. Works efficiently both in frontend as well as
-              backend and proficient in Data Structure and Algorithms with good
+              building React Apps. Works efficiently both in frontend (React.js) as well as
+              backend (Node.js, Express.js, MongoDB) and proficient in Data Structure and Algorithms with good
               problem solving skills.
             </div>
           </div>
