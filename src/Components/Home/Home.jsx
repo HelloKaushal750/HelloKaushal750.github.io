@@ -2,6 +2,9 @@ import "./Home.css";
 import myFile from "../../static/Kaushal_Vishwakarma_Resume.pdf";
 
 function Home() {
+  const openTab = ()=>{
+    window.open(myFile,"_blank")
+  }
   return (
     <div id="home">
       <div className="left_container">
@@ -86,6 +89,7 @@ function Home() {
               title="Download Resume"
               id="resume-button-2"
               style={{ width: "40px" }}
+              onClick={openTab}
             >
               <i className="fa-solid fa-arrow-down"></i>
             </button>
