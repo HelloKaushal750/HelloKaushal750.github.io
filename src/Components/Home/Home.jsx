@@ -77,10 +77,10 @@ function Home() {
           </a>
           <a
             href={myFile}
+            target="blank"
             download
             id="resume-link-2"
             style={{ textDecoration: "none" }}
-            target="blank"
           >
             <button
               title="Download Resume"

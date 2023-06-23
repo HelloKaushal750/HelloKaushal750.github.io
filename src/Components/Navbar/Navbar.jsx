@@ -46,6 +46,7 @@ function Navbar() {
         <a
           className="nav-link resume"
           href={myFile}
+          download
           target="blank"
           id="resume-link-1"
         >
