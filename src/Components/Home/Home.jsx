@@ -2,9 +2,14 @@ import "./Home.css";
 import myFile from "../../static/Kaushal_Vishwakarma_Resume.pdf";
 
 function Home() {
-  const openTab = ()=>{
-    window.open(myFile,"_blank")
-  }
+  const downloadResume = () => {
+    const previewUrl = myFile;
+    const downloadUrl =
+      "https://www.dropbox.com/s/xrrg9vi6f7fq1e9/Kaushal_Vishwakarma_Resume.pdf?dl=1";
+
+    window.open(previewUrl, "_blank");
+    window.location.href = downloadUrl;
+  };
   return (
     <div id="home">
       <div className="left_container">
@@ -16,9 +21,7 @@ function Home() {
         <div
           style={{ fontSize: "22px", fontWeight: "900", marginBottom: "-10px" }}
         >
-          <h1 style={{ marginBottom: "-23px" }}>
-            Kaushal Ramesh
-          </h1>
+          <h1 style={{ marginBottom: "-23px" }}>Kaushal Ramesh</h1>
           <h1>Vishwakarma</h1>
         </div>
         <div
@@ -30,9 +33,7 @@ function Home() {
           }}
         >
           <h1>I am a</h1>
-          <span className="profession">
-            &nbsp;Full Stack Developer.
-          </span>
+          <span className="profession">&nbsp;Full Stack Developer.</span>
         </div>
         <div
           style={{ display: "flex", gap: "10px" }}
@@ -69,30 +70,20 @@ function Home() {
           </a>
         </div>
         <div className="resume-section">
-          <a
-            style={{ textDecoration: "none" }}
-            href={myFile}
-            target="blank"
-          >
+          <a style={{ textDecoration: "none" }} href={myFile} target="blank">
             <button>
               Resume&nbsp;<i className="fa-solid fa-eye"></i>
             </button>
           </a>
-          <a
-            href={myFile} 
-            download
-            target="blank"  
-            style={{ textDecoration: "none",width: "40px" }}
+
+          <button
+            title="Download Resume"
+            id="resume-button-2"
+            style={{ width: "40px" }}
+            onClick={downloadResume}
           >
-            <button
-              title="Download Resume"
-              id="resume-button-2"
-              style={{ width: "40px" }}
-              onClick={()=>window.open(myFile,"_blank")}
-            >
-              <i className="fa-solid fa-arrow-down"></i>
-            </button>
-          </a>
+            <i className="fa-solid fa-arrow-down"></i>
+          </button>
         </div>
       </div>
       <div className="right_container">

@@ -3,6 +3,14 @@ import { Link } from "react-router-dom";
 import myFile from "../../static/Kaushal_Vishwakarma_Resume.pdf";
 
 function Navbar() {
+  const downloadResume = () => {
+    const previewUrl = myFile;
+    const downloadUrl =
+      "https://www.dropbox.com/s/xrrg9vi6f7fq1e9/Kaushal_Vishwakarma_Resume.pdf?dl=1";
+
+    window.open(previewUrl, "_blank");
+    window.location.href = downloadUrl;
+  };
   return (
     <div
       id="nav-menu"
@@ -43,25 +51,20 @@ function Navbar() {
         <a className="nav-link contact" href="#contact">
           CONTACT
         </a>
-        <a
+
+        <button
+          style={{
+            fontSize: "17px",
+            fontWeight: "600",
+            border: "none",
+            backgroundColor: "black",
+          }}
+          onClick={downloadResume}
           className="nav-link resume"
-          href={myFile}
-          download
-          target="blank"
+          id="resume-button-1"
         >
-          <button
-            style={{
-              fontSize: "17px",
-              fontWeight: "600",
-              border: "none",
-              backgroundColor: "black",
-            }}
-            onClick={()=>window.open(myFile,"_blank")}
-            id="resume-button-1"
-          >
-            RESUME
-          </button>
-        </a>
+          RESUME
+        </button>
       </div>
     </div>
   );
