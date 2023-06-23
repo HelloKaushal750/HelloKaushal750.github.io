@@ -80,7 +80,7 @@ function Home() {
             download
             id="resume-link-2"
             style={{ textDecoration: "none" }}
-            target="_blank"
+            target="blank"
           >
             <button
               title="Download Resume"
