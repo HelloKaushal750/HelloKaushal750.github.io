@@ -3,7 +3,7 @@ import myFile from "../../static/Kaushal_Vishwakarma_Resume.pdf";
 
 function Home() {
   const downloadResume = () => {
-    const previewUrl = myFile;
+    const previewUrl = "https://drive.google.com/file/d/1n8rr2zgXUDQ8j68bLWhJeZyNSvJxZtLv/view?usp=sharing";
     const downloadUrl =
       "https://www.dropbox.com/s/xrrg9vi6f7fq1e9/Kaushal_Vishwakarma_Resume.pdf?dl=1";
 
