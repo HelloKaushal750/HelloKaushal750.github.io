@@ -78,22 +78,21 @@ function Home() {
               Resume&nbsp;<i className="fa-solid fa-eye"></i>
             </button>
           </a>
-          <a
-            href={myFile}
-            target="blank"
-            download
+          {/* <a
+            href={myFile}   
             id="resume-link-2"
             style={{ textDecoration: "none" }}
-          >
+          > */}
             <button
               title="Download Resume"
               id="resume-button-2"
               style={{ width: "40px" }}
-              onClick={openTab}
+              download
+              onClick={()=>window.open(myFile,"_blank")}
             >
               <i className="fa-solid fa-arrow-down"></i>
             </button>
-          </a>
+          {/* </a> */}
         </div>
       </div>
       <div className="right_container">
