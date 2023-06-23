@@ -21,7 +21,7 @@ function About() {
               ></i>
             </div>
             <div>
-              Hello, My name is <span style={{fontWeight:"600"}}>Kaushal Ramesh Vishwakarma</span> and I
+              Hello, My name is <span style={{fontWeight:"600"}} id="user-detail-name">Kaushal Ramesh Vishwakarma</span> and I
               enjoy creating thing that live on the internet.
             </div>
           </div>

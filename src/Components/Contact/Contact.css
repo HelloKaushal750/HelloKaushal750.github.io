@@ -1,0 +1,26 @@
+
+#contact{
+    background-color: #0f1624;
+}
+.contact_left{
+    padding: 40px;
+}
+.contact_right{
+    padding: 20px;
+    padding-left: 50px;
+}
+.contact_right button{
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    width: 110%;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.person_details>input, .person_details>textarea{
+    height: 30px;
+    background-color: #0f1624;
+    color: white;
+}

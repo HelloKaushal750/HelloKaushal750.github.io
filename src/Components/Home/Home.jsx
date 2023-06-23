@@ -13,7 +13,7 @@ function Home() {
         <div
           style={{ fontSize: "22px", fontWeight: "900", marginBottom: "-10px" }}
         >
-          <h1 id="user-detail-name" style={{ marginBottom: "-23px" }}>
+          <h1 style={{ marginBottom: "-23px" }}>
             Kaushal Ramesh
           </h1>
           <h1>Vishwakarma</h1>
@@ -70,9 +70,8 @@ function Home() {
             style={{ textDecoration: "none" }}
             href={myFile}
             target="blank"
-            id="resume-link-1"
           >
-            <button id="resume-button-1">
+            <button>
               Resume&nbsp;<i className="fa-solid fa-eye"></i>
             </button>
           </a>

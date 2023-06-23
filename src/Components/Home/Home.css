@@ -7,6 +7,8 @@
     height: 70vh;
     background-color: #0c0032;
     margin-bottom: -30px;
+    width: 80%;
+    margin: auto;
 }
 
 .left_container {
