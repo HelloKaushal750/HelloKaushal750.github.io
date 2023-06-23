@@ -16,7 +16,7 @@ function About() {
           <div style={{display:'flex',gap:'10px'}}>
             <div>
               <i
-                class="fa-solid fa-circle-check"
+                className="fa-solid fa-circle-check"
                 style={{ color: "#4000ff" }}
               ></i>
             </div>
@@ -28,7 +28,7 @@ function About() {
           <div style={{display:'flex',gap:'10px'}}>
             <div>
               <i
-                class="fa-solid fa-circle-check"
+                className="fa-solid fa-circle-check"
                 style={{ color: "#4000ff" }}
               ></i>
             </div>
@@ -40,7 +40,7 @@ function About() {
           <div style={{display:'flex',gap:'10px'}}>
             <div>
               <i
-                class="fa-solid fa-circle-check"
+                className="fa-solid fa-circle-check"
                 style={{ color: "#4000ff" }}
               ></i>
             </div>
@@ -54,7 +54,7 @@ function About() {
           <div style={{display:'flex',gap:'10px'}}>
             <div>
               <i
-                class="fa-solid fa-circle-check"
+                className="fa-solid fa-circle-check"
                 style={{ color: "#4000ff" }}
               ></i>
             </div>

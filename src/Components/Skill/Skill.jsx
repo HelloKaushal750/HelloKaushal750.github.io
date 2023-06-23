@@ -26,9 +26,10 @@ function Skill() {
           paddingBottom: "150px",
         }}
       >
-        {data.map((item) => {
+        {data.map((item,i) => {
           return (
             <div
+            key={i}
             className="skills-card"
               style={{
                 textAlign: "center",

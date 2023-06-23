@@ -17,9 +17,9 @@ function Project() {
         </h1>
       </div>
       <div className="projects_container">
-        {data.map((project) => {
+        {data.map((project,i) => {
           return (
-            <div className="project-card">
+            <div className="project-card" key={i}>
               <div style={{ height: "300px" }}>
                 <img
                   src={project.images[0]}
@@ -82,17 +82,17 @@ function Project() {
                   target="blank"
                   href={project.github}
                 >
-                  <i class="fa-brands fa-github"></i>
+                  <i className="fa-brands fa-github"></i>
                 </a>
                 <a target="blank" href={project.video_link}>
-                  <i class="fa-solid fa-play"></i>
+                  <i className="fa-solid fa-play"></i>
                 </a>
                 <a
                   className="project-deployed-link"
                   target="blank"
                   href={project.deployed_link}
                 >
-                  <i class="fa-solid fa-eye"></i>
+                  <i className="fa-solid fa-eye"></i>
                 </a>
               </div>
             </div>
