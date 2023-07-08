@@ -8,13 +8,13 @@
       "/Images/Alcazar/booking.png"
     ],
     "title": "Alcazar - Travel Agency",
-    "description": "Alcazar is one of the most used travel agency wbsite for booking or planning any vacation across the world. From Homepage, Login & SignUp, Product to Payment, MyBooking page. We have added every functionalities. In this team project, I have created 'Payment', 'MyBooking' page and linked all the pages.",
+    "description": "Alcazar is one of the most used travel agency wbsite for booking or planning any vacation across the world. In this team project, I have built 'Payment Validation', 'MyBooking' page and linked all the pages. I also handled the entire backend from signup, log-in by using JWT to booking the vacation.",
     "type": "Group",
     "members": "3",
     "duration": "05",
-    "tech_stack": "ReactJS | CSS | JavaScript | JSON Server | Chakra UI",
-    "github": "https://github.com/HelloKaushal750/Alcazar-Travel-Agency",
-    "deployed_link": "https://alcazar.vercel.app/",
+    "tech_stack": "ReactJS | CSS | JavaScript | Chakra UI | NODEJS | EXPRESS | MONGODB | JWT ",
+    "github": "https://github.com/HelloKaushal750/MERN-AlcazarApp",
+    "deployed_link": "https://alcazartravels-hellokaushal750.vercel.app/",
     "video_link": ""
   },
   {
