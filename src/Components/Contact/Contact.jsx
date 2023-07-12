@@ -118,7 +118,11 @@ function Contact() {
           <h1 style={{ color: "white", fontSize: "20px" }}>
             Get in <span style={{ color: "#4000ff" }}>Touch</span>
           </h1>
-          <form className="person_details" style={{display:"flex",flexDirection:"column",gap:"20px"}} onSubmit={handleSubmit}>
+          <form
+            className="person_details"
+            style={{ display: "flex", flexDirection: "column", gap: "20px" }}
+            onSubmit={handleSubmit}
+          >
             <input
               type="text"
               placeholder="Full Name"
@@ -151,10 +155,21 @@ function Contact() {
               onChange={(e) => {
                 dispatch({ type: "message", payload: e.target.value });
               }}
-              rows="4" cols="50"
-              style={{height:"100px"}}
+              rows="4"
+              cols="50"
+              style={{ height: "100px" }}
             ></textarea>
-            <input style={{width:"20%",backgroundColor:"#4000ff",border:"none",borderRadius:"5px",cursor:"pointer"}} type="submit" value={"Submit"}/>
+            <input
+              style={{
+                width: "20%",
+                backgroundColor: "#4000ff",
+                border: "none",
+                borderRadius: "5px",
+                cursor: "pointer",
+              }}
+              type="submit"
+              value={"Submit"}
+            />
           </form>
         </div>
       </div>

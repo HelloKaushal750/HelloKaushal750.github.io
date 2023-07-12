@@ -17,14 +17,12 @@ function Skill() {
       </div>
       <div
         style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(7,1fr)",
-          gap: "40px",
           width: "80%",
           margin: "auto",
           marginTop: "50px",
           paddingBottom: "150px",
         }}
+        id="skillcardtechnical"
       >
         {data.map((item,i) => {
           return (

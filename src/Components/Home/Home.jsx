@@ -14,7 +14,7 @@ function Home() {
     <div id="home">
       <div className="left_container">
         <div style={{ marginBottom: "-12px" }}>
-          <h1 style={{ fontFamily: "serif", fontSize: "30px" }}>
+          <h1 style={{ fontFamily: "serif" }}>
             Hello<span className="wave">👋</span>, My name is
           </h1>
         </div>
@@ -28,12 +28,11 @@ function Home() {
           style={{
             marginTop: "-30px",
             display: "flex",
-            flexDirection: "row",
-            alignItems: "center",
           }}
+          className="iamdeveloper"
         >
           <h1>I am a</h1>
-          <span className="profession">&nbsp;Full Stack Developer.</span>
+          <div><span className="profession">&nbsp;Full Stack Developer.</span></div>
         </div>
         <div
           style={{ display: "flex", gap: "10px" }}

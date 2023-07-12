@@ -39,7 +39,7 @@ function Project() {
               >
                 <h1 className="project-title">{project.title}</h1>
               </div>
-              <div style={{ height: "200px" }}>
+              <div className="projectdgt">
                 <p className="project-description">{project.description}</p>
                 {project.type !== "Individual" ? (
                   <p>

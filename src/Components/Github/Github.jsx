@@ -25,7 +25,6 @@ function Github() {
         className="github_data"
       >
         <div
-          style={{ height: "200px" }}
           id="github-stats-card"
           src="https://github-readme-stats.vercel.app/api?username=HelloKaushal750&show_icons=true&theme=tokyonight"
         >
@@ -36,7 +35,6 @@ function Github() {
         </div>
         <div
           id="github-streak-stats"
-          style={{ height: "180px" }}
           src="https://github-readme-streak-stats.herokuapp.com/?user=HelloKaushal750&show_icons=true&theme=tokyonight"
         >
           <img
@@ -55,12 +53,12 @@ function Github() {
           paddingLeft: "45px",
         }}
         className="github_data"
+        id="calenderandlanguage"
       >
         <div
           style={{
             border: "1px solid #4000ff",
             padding: "5px",
-            width: "45%",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -93,7 +91,7 @@ function Github() {
         <div
           id="github-top-langs"
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=HelloKaushal750&layout=compact&show_icons=true&theme=tokyonight"
-          style={{ height: "262px", width: "47%", padding: "5px" }}
+          style={{padding: "5px" }}
         >
           <img
             style={{
@@ -106,7 +104,7 @@ function Github() {
           />
         </div>
       </div>
-      <div className="hours" style={{display:"flex",width:"80%",justifyContent:"center",gap:"30px"}}>
+      <div className="hours">
         <div>
           <h1 style={{color:"#4000ff",marginBottom:"-15px"}}>300+</h1>
           <h1 style={{marginBottom:"-5px"}}>Hours</h1>

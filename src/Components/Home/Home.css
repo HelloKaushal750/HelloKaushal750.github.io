@@ -1,195 +1,308 @@
 #home {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 100px 120px;
-    padding-top: 180px;
-    color: white;
-    height: 70vh;
-    background-color: #0c0032;
-    margin-bottom: -30px;
-    width: 80%;
-    margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 100px 120px;
+  padding-top: 180px;
+  color: white;
+  height: 70vh;
+  background-color: #0c0032;
+  margin-bottom: -30px;
+  width: 80%;
+  margin: auto;
 }
 
 .left_container {
-    padding: 10px 50px;
+  padding: 10px 50px;
 }
-
 
 /* Waving Hand */
 
 .wave {
-    animation-name: wave-animation;
-    /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.5s;
-    /* Change to speed up or slow down */
-    animation-iteration-count: infinite;
-    /* Never stop waving :) */
-    transform-origin: 70% 70%;
-    /* Pivot around the bottom-left palm */
-    display: inline-block;
-    font-size: 1.2em;
+  animation-name: wave-animation;
+  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;
+  /* Change to speed up or slow down */
+  animation-iteration-count: infinite;
+  /* Never stop waving :) */
+  transform-origin: 70% 70%;
+  /* Pivot around the bottom-left palm */
+  display: inline-block;
+  font-size: 1.2em;
 }
 
 @keyframes wave-animation {
-    0% {
-        transform: rotate(0deg);
-    }
-    10% {
-        transform: rotate(14deg);
-    }
-    /* The following five values can be played with to make the waving more or less extreme */
-    20% {
-        transform: rotate(-8deg);
-    }
-    30% {
-        transform: rotate(14deg);
-    }
-    40% {
-        transform: rotate(-4deg);
-    }
-    50% {
-        transform: rotate(10deg);
-    }
-    60% {
-        transform: rotate(0deg);
-    }
-    /* Reset for the last half to pause */
-    100% {
-        transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
-.logo_container>a {
-    text-decoration: none;
+.logo_container > a {
+  text-decoration: none;
 }
 
-.logo_container>a>div {
-    background-color: red;
-    height: 38px;
-    width: 38px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: #3500d3;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+.logo_container > a > div {
+  background-color: red;
+  height: 38px;
+  width: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #3500d3;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
-.logo_container>a>div>i {
-    font-size: 18px;
-    color: black;
-    background-color: #3500d3;
-    transition: all 0.3s ease-in-out;
+.logo_container > a > div > i {
+  font-size: 18px;
+  color: black;
+  background-color: #3500d3;
+  transition: all 0.3s ease-in-out;
 }
 
 .linked_icon:hover #linkedin,
 .linked_icon:hover {
-    transform: scale(1.1);
-    background-color: white;
-    color: #0a66c2;
+  transform: scale(1.1);
+  background-color: white;
+  color: #0a66c2;
 }
 
 .github_icon:hover #github,
 .github_icon:hover {
-    transform: scale(1.1);
-    background-color: white;
-    color: #161b22;
+  transform: scale(1.1);
+  background-color: white;
+  color: #161b22;
 }
 
 .mail_icon:hover #mail,
 .mail_icon:hover {
-    transform: scale(1.1);
-    background-color: white;
-    color: orange;
+  transform: scale(1.1);
+  background-color: white;
+  color: orange;
 }
 
 .phone_icon:hover #phone,
 .phone_icon:hover {
-    transform: scale(1.1);
-    background-color: white;
-    color: green;
+  transform: scale(1.1);
+  background-color: white;
+  color: green;
 }
 
 .resume-section {
-    display: flex;
-    margin-top: 15px;
-    gap: 15px;
+  display: flex;
+  margin-top: 15px;
+  gap: 15px;
 }
 
 .resume-section button {
-    background-color: #3500d3;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    font-weight: 600;
-    font-size: 15px;
-    color: black;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    box-sizing: border-box;
-    border: 2px solid #3500d3;
+  background-color: #3500d3;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-weight: 600;
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-sizing: border-box;
+  border: 2px solid #3500d3;
 }
 
 .resume-section button:hover {
-    color: #3500d3;
-    background-color: white;
-    transform: scale(1.1);
-    border-color: #3500d3;
-    /* box-sizing: border-box; */
+  color: #3500d3;
+  background-color: white;
+  transform: scale(1.1);
+  border-color: #3500d3;
+  /* box-sizing: border-box; */
 }
-
 
 /* Right Container */
 
 .right_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile_container {
-    margin: 30px;
-    margin-top: -100px;
-    width: 60%;
-    height: 400px;
-    transition: all 1s ease-in-out;
+  margin: 30px;
+  margin-top: -100px;
+  width: 60%;
+  height: 400px;
+  transition: all 1s ease-in-out;
 }
 
 .profile_container img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    border: 5px solid rgb(12, 0, 50);
-    padding: 5px;
-    background: black;
-    outline: 5px solid rgb(26, 0, 97);
-    box-shadow: 0 0 0 10px rgb(35, 0, 144), 0 0 0 15px rgb(53, 0, 212);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 5px solid rgb(12, 0, 50);
+  padding: 5px;
+  background: black;
+  outline: 5px solid rgb(26, 0, 97);
+  box-shadow: 0 0 0 10px rgb(35, 0, 144), 0 0 0 15px rgb(53, 0, 212);
 }
 
 .profile_container:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 #home .profession {
+  position: relative;
+  color: transparent;
+  background-image: linear-gradient(#4000ff, #4000ff);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: -360px 0;
+  animation: backcolor 5s linear infinite alternate;
+  font-size: 35px;
+  font-weight: 600;
+}
+.iamdeveloper {
+  align-items: center;
+}
+
+@keyframes backcolor {
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* For Tablets */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    color: white;
+    height: 90vh;
+    background-color: #0c0032;
+    margin-bottom: -60px;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .left_container h1 {
+    font-size: 28px;
+  }
+  .left_container {
+    margin-top: -100px;
+    padding: 10px;
+  }
+  .iamdeveloper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px;
+  }
+  .iamdeveloper > div {
+    margin-left: -10px;
+    margin-top: -10px;
+  }
+  #home .profession {
     position: relative;
     color: transparent;
     background-image: linear-gradient(#4000ff, #4000ff);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
-    background-position: -360px 0;
+    background-position: -300px 0;
     animation: backcolor 5s linear infinite alternate;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
+  }
+  .profile_container {
+    margin: 10px;
+    margin-top: -100px;
+    width: 80%;
+    height: 300px;
+    transition: all 1s ease-in-out;
+  }
 }
 
-@keyframes backcolor {
-    100% {
-        background-position: 0 0;
-    }
+/* Mobile */
+@media screen and (max-width: 480px) {
+  #home {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+    color: white;
+    height: 120vh;
+    background-color: #0c0032;
+    margin-bottom: -60px;
+    margin-top: 50px;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .left_container h1 {
+    font-size: 28px;
+  }
+  .left_container {
+    margin-top: 100px;
+    padding: 10px;
+  }
+  .left_container{
+    margin-top: 0px;
+  }
+  .iamdeveloper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px;
+  }
+  .iamdeveloper > div {
+    margin-left: -10px;
+    margin-top: -10px;
+  }
+  #home .profession {
+    position: relative;
+    color: transparent;
+    background-image: linear-gradient(#4000ff, #4000ff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -300px 0;
+    animation: backcolor 5s linear infinite alternate;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .profile_container {
+    margin: 10px;
+    margin-top: -100px;
+    width: 80%;
+    height: 300px;
+    transition: all 1s ease-in-out;
+  }
+  .profile_container:hover {
+    transform: scale(1.1);
+  }
 }

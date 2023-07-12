@@ -1,3 +1,27 @@
-#skills{
-    background-color: #0c0032;
+#skills {
+  background-color: #0c0032;
+}
+#skillcardtechnical {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 40px;
+}
+
+/* For Tablets */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #skillcardtechnical {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  #skillcardtechnical {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    justify-content: center;
+  }
 }
