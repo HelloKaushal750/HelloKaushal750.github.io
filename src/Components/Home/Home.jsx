@@ -1,12 +1,11 @@
 import "./Home.css";
-import myFile from "../../static/Kaushal_Vishwakarma_Resume.pdf";
+import myFile from "../../static/Kaushal-Vishwakarma-Resume.pdf";
 
 function Home() {
   const downloadResume = () => {
-    const previewUrl = "https://drive.google.com/file/d/1n8rr2zgXUDQ8j68bLWhJeZyNSvJxZtLv/view?usp=sharing";
+    const previewUrl = "https://drive.google.com/file/d/1Ij3goZ8PSCdvsNC6MQj030UuLtlbzL48/view?usp=sharing";
     const downloadUrl =
-      "https://www.dropbox.com/s/xrrg9vi6f7fq1e9/Kaushal_Vishwakarma_Resume.pdf?dl=1";
-
+      "https://www.dropbox.com/scl/fi/pctnskkbwtfoabg2zdxqb/Kaushal-Vishwakarma-Resume.pdf?rlkey=yxzx344zofzihuz5y04u3q78l&dl=1";
     window.open(previewUrl, "_blank");
     window.location.href = downloadUrl;
   };
