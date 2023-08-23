@@ -59,7 +59,7 @@ function About() {
               ></i>
             </div>
             <div>
-              I built 4 major projects and some mini projects. Learned a great
+              I built 5 major projects and some mini projects. Learned a great
               deal about teamwork, leadership, and communication. After months
               of rigorous training, here I am looking for an opportunity as a
               full Stack web Developer.

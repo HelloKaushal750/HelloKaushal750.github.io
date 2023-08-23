@@ -1,5 +1,16 @@
 [
   {
+    "images": ["/Images/Flipkart/Home.png"],
+    "title": "Flipkart",
+    "description": "This website is a clone of 'Flipkart.com'. Flipkart is the biggest online Indian marketplace competing with the world leader Amazon. I have cloned it individually. This project has 'Signup/Signin, Landing, Product, Productdetail, Booking, Cart, Payment Validation, Order pages and many more. I have cloned every funtionalities.",
+    "type": "Individual",
+    "duration": "20",
+    "tech_stack": "ReactJS | CSS | JavaScript | Chakra UI | NODEJS | EXPRESS | MONGODB | JWT ",
+    "github": "https://github.com/HelloKaushal750/Flipkart",
+    "deployed_link": "https://flipkart-kappa.vercel.app/",
+    "video_link": ""
+  },
+  {
     "images": [
       "/Images/Alcazar/home.png",
       "/Images/Alcazar/product.png",
@@ -8,13 +19,13 @@
       "/Images/Alcazar/booking.png"
     ],
     "title": "Alcazar - Travel Agency",
-    "description": "Alcazar is one of the most used travel agency wbsite for booking or planning any vacation across the world. In this team project, I have built 'Payment Validation', 'MyBooking' page and linked all the pages. I also handled the entire backend from signup, log-in by using JWT to booking the vacation.",
+    "description": "Alcazar is one of the most used travel agency website for booking or planning any vacation across the world. In this team project, I have built 'Payment Validation', 'MyBooking' page and linked all the pages. I also handled the entire backend from signup, log-in by using JWT to booking the vacation.",
     "type": "Group",
     "members": "3",
     "duration": "05",
     "tech_stack": "ReactJS | CSS | JavaScript | Chakra UI | NODEJS | EXPRESS | MONGODB | JWT ",
     "github": "https://github.com/HelloKaushal750/MERN-AlcazarApp",
-    "deployed_link": "https://alcazartravels-hellokaushal750.vercel.app/",
+    "deployed_link": "https://alcazartravels.vercel.app/",
     "video_link": ""
   },
   {
@@ -37,7 +48,7 @@
       "/Images/Sephora/cart.png",
       "/Images/Sephora/payment.png"
     ],
-    "title": "Sephora - Clone",
+    "title": "Sephora",
     "description": "Sephora is a French multinational retailer of personal care and beauty products with nearly 340 brands which includes beauty products such as cosmetics, skincare, body, fragrance, etc. In this project my part was 'Cart' and 'Checkout' page.",
     "type": "Group",
     "members": "5",
@@ -55,7 +66,7 @@
       "/Images/Netmeds/cart.png",
       "/Images/Netmeds/payment.png"
     ],
-    "title": "Netmeds - Clone",
+    "title": "Netmeds",
     "description": "Netmeds.com is one of India's most trusted pharmacies, dispensing quality medicines at reasonable prices to over 7 million happy customers – PAN India. On this website, I have built 'Product Description' page, 'Cart' and 'Payment' page.",
     "type": "Group",
     "members": "4",

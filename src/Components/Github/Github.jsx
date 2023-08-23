@@ -106,12 +106,12 @@ function Github() {
       </div>
       <div className="hours">
         <div>
-          <h1 style={{color:"#4000ff",marginBottom:"-15px"}}>300+</h1>
+          <h1 style={{color:"#4000ff",marginBottom:"-15px"}}>1000+</h1>
           <h1 style={{marginBottom:"-5px"}}>Hours</h1>
           <p>Coding</p>
         </div>
         <div>
-          <h1 style={{color:"#4000ff",marginBottom:"-15px"}}>4+</h1>
+          <h1 style={{color:"#4000ff",marginBottom:"-15px"}}>5+</h1>
           <h1 style={{marginBottom:"-5px"}}>Projects</h1>
           <p>Done</p>
         </div>
@@ -121,7 +121,7 @@ function Github() {
           <p>Solved(OJ)</p>
         </div>
         <div>
-          <h1 style={{color:"#4000ff",marginBottom:"-15px"}}>250+</h1>
+          <h1 style={{color:"#4000ff",marginBottom:"-15px"}}>500+</h1>
           <h1 style={{marginBottom:"-5px"}}>Hours</h1>
           <p>DSA</p>
         </div>
